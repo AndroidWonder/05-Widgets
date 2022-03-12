@@ -29,8 +29,8 @@ public class Widgets extends Activity implements OnClickListener {
 
 		mealpricefield = (EditText) findViewById(R.id.mealprice);
 		answerfield = (TextView) findViewById(R.id.answer);
-
 		button = (Button) findViewById(R.id.calculate);
+
 		button.setOnClickListener(this);
 
 	}

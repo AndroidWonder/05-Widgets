@@ -2,4 +2,5 @@
 <resources>
     <string name="app_name">Widgets Demo</string>
     <string name="calculator"><u>Android Tip Calculator</u></string>
+    <string name="tip">Android Tip Calculator</string>
 </resources>
