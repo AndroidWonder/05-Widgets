@@ -37,7 +37,6 @@ public class Widgets extends Activity implements OnClickListener {
 
 	// Perform action on click
 	public void onClick(View v) {
-		try {
 
 			Log.i(tag, "onClick invoked.");
 
@@ -64,11 +63,6 @@ public class Widgets extends Activity implements OnClickListener {
 			// display the answer
 			answerfield.setText(answer);
 			Log.i(tag, "onClick complete.");
-		
-		} catch (Exception e) {
-			Log.e(tag, "Failed to Calculate Tip:" + e.getMessage());
-			answerfield.setText("Failed to Calculate Tip:" + e.getMessage());
-		}
 
 	}
 }
